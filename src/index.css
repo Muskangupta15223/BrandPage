@@ -113,6 +113,8 @@ p{
   height: 80vh;
   width:85vw;
   background-color:  #f5f5f5;
+  color:black;
+  margin-left:5.5vw;
 }
 
 .contact-form {
