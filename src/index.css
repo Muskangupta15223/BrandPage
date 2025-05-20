@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+PT+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color:white;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0vh 3vw;
+}
+.logo img{
+  height:2vw;
+  width:7vw;
+}
+ul{
+  list-style:none;
+  display:flex;
+  gap:2rem;
+}
+li{
+  font-size:14px;
+  font-weight: 400;
+  cursor: pointer;
+  
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+li:hover , a:hover{
+  color: #f71f1f;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+}
+
+.btn{
+  display:flex;
+  gap:13px;
+}
+.category{
+  background-color: #a49d9d9d;
+  padding:0.5rem 1.2rem;
+  border:none;
+  color: #f5f5f5;
+  border-radius:0.25rem;
+  cursor:pointer;
+  font-weight: 500;
+}
+.hero{
+
+  height:82vh;
+  width:90vw;
+  display:flex;
+  justify-content:center;
+  margin-left:4.5vw;
+  align-items:center;
+  margin-top:2.5vh;
+  overflow: hidden;
+  padding:3.6vh 5vw;
+}
+.part1{
+ position:relative;
+ padding-top: 10vh;
+}
+.part2{
+  position:relative;
+  /* margin-left: -5vw; */
+}
+.line1{
+  font-size:6.5rem;
+  font-weight:700;
+  line-height:6.4rem;
+  margin-bottom:1.2rem;;
+}
+p{
+ font-size: 18px;
+ margin-top:0.3rem;
+ font-weight:300;
+}
+#avl{
+  margin-top:2rem;
+  font-size:12px;
+}
+.small_container{
+  height:1.2rem;
+  width:1.2rem;
+  display: flex;
+  gap:1rem;
+  margin-bottom:4rem;
+}
+.shoe_image{
+ padding-top: 15vh;
+  width:32vw;
+  height: 75vh;
+  mix-blend-mode:hard-light;
+  border-radius: 0.5rem;
+  /* box-shadow: 0.4px 10px 5px rgba(145, 231, 7, 0.8); */
+  filter: drop-shadow(14px 14px 40px rgba(193, 214, 7, 0.826));
+
+  transition: transform 0.3s ease;
+  transform: translateY(18%);
+}
+.contact {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width:85vw;
+  background-color:  #f5f5f5;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contact-form label {
+  margin-bottom: 1.75rem;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-form button , .signup , .login {
+  background-color: #f71f1f;
+  color: white;
+  padding: 0.4rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contact-form button:hover {
+  background-color: #c60c0c;
+}
+.shop-now-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-now-button {
+  background-color: #f71f1f;
+  color: white;
+  padding: 0.35rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.55rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #5a6268;
+}
